@@ -35,7 +35,12 @@
 
 <h3>📊 GitHub Stats</h3>
 
-
+<p align="left">
+  <!-- 核心统计卡片 -->
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=TongXinGood&show_icons=true&theme=radical&count_private=true" width="450"/>
+  <!-- 常用语言卡片 -->
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=TongXinGood&layout=compact&theme=radical&count_private=true" width="400"/>
+</p>
 
 <br/>
 
