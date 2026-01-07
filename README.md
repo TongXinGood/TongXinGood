@@ -3,9 +3,10 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=TongXinGood&label=Profile%20views&color=0e75b6&style=flat" alt="TongXinGood" /> </p>
 
-
+- 👯 I'm looking to collaborate on **High-performance C++ server-side projects**
+- 🌱 I'm currently learning **Modern C++ (C++17/20) for backend system development
+C++ coroutine & thread-safe design patterns**
 - 👨‍💻 All of my projects are available at [https://github.com/TongXinGood](https://github.com/TongXinGood)
-
 - 📫 How to reach me **tongxinlovecr@outlook.com**
 
 
