@@ -1,11 +1,10 @@
-
 <div align="center">
 
 # Hi 👋, I'm TongXin
 
 ### 🚀 A Passionate C++ Developer from China
 
-<!-- 访问量统计 (Komarev 这个服务国内通常能直接看，如果这个也裂了，建议直接删掉) -->
+<!-- 访问量统计 -->
 <img src="https://komarev.com/ghpvc/?username=TongXinGood&label=Profile%20views&color=0e75b6&style=flat" alt="TongXinGood" />
 
 <br/>
@@ -23,32 +22,30 @@
 
 <br/>
 
-<!-- 技术栈图标：Shields.io 和 SkillIcons 国内访问都很稳 -->
 <h3>🛠️ Languages and Tools</h3>
 
 <p align="center">
   <a href="https://skillicons.dev">
+    <!-- 这里使用 CDN 加速 skillicons -->
     <img src="https://skillicons.dev/icons?i=cpp,c,linux,cmake,mysql,redis,git,docker,bash,vscode&perline=10" alt="My Skills" />
   </a>
 </p>
 
 <br/>
 
-<!-- GitHub 统计卡片：引用仓库本地生成的图片 -->
-<!-- 这样无论有没有梯子，只要能打开 GitHub 就能看到图！ -->
 <h3>📊 GitHub Stats</h3>
 
 <p align="center">
-  <!-- 引用本地文件 ./langs.svg -->
-  <img src="./langs.svg" alt="Top Langs" height="160" />
+  <!-- ⚠️ 重点修改：使用 cdn.jsdelivr.net 加速你仓库里的图片 -->
+  <!-- 格式：https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名/文件名 -->
   
-  <!-- 引用本地文件 ./stats.svg -->
-  <img src="./stats.svg" alt="Stats" height="160" />
+  <img src="https://cdn.jsdelivr.net/gh/TongXinGood/TongXinGood@main/langs.svg" alt="Top Langs" height="160" />
+  
+  <img src="https://cdn.jsdelivr.net/gh/TongXinGood/TongXinGood@main/stats.svg" alt="Stats" height="160" />
 </p>
 
 <br/>
 
-<!-- 社交链接 -->
 <h3>📫 Connect with me</h3>
 
 <p align="center">
@@ -64,3 +61,11 @@
 </p>
 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TongXinGood/TongXinGood/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TongXinGood/TongXinGood/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/TongXinGood/TongXinGood/output/pacman-contribution-graph.svg">
+</picture>
+
+###
