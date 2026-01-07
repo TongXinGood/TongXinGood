@@ -1,0 +1,33 @@
+name: Update Stats Images
+
+on:
+  schedule:
+    # 每天国际标准时间 0点 (北京时间早上8点) 运行一次
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许你手动点击按钮运行
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Download GitHub Stats
+        run: |
+          # 下载核心统计图，保存为 stats.svg
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=TongXinGood&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=00000000"
+          
+          # 下载语言分布图，保存为 langs.svg
+          curl -o langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=TongXinGood&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add stats.svg langs.svg
+          # 如果有变化才提交
+          git commit -m "Update stats images" || echo "No changes to commit"
+          git push
