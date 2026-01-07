@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm TongXin
 
-### 🚀 A Passionate C++ Developer from China
+### 🚀 A Passionate C++ Developer 
 
 <!-- 访问量统计 -->
 <img src="https://komarev.com/ghpvc/?username=TongXinGood&label=Profile%20views&color=0e75b6&style=flat" alt="TongXinGood" />
