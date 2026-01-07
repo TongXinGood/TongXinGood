@@ -36,12 +36,12 @@
 <h3>📊 GitHub Stats</h3>
 
 <p align="center">
-  <!-- ⚠️ 重点修改：使用 cdn.jsdelivr.net 加速你仓库里的图片 -->
-  <!-- 格式：https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名/文件名 -->
+  <!-- 直接引用仓库里的本地文件，不再经过任何 CDN -->
+  <!-- 只要你的仓库里有 langs.svg，这行代码就绝对能显示 -->
+  <img src="./langs.svg" alt="Top Langs" height="160" />
   
-  <img src="https://cdn.jsdelivr.net/gh/TongXinGood/TongXinGood@main/langs.svg" alt="Top Langs" height="160" />
-  
-  <img src="https://cdn.jsdelivr.net/gh/TongXinGood/TongXinGood@main/stats.svg" alt="Stats" height="160" />
+  <!-- 直接引用仓库里的本地文件 -->
+  <img src="./stats.svg" alt="Stats" height="160" />
 </p>
 
 <br/>
